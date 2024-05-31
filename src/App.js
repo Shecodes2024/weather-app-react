@@ -29,7 +29,7 @@ export default function App() {
           </a>
           and
           <a
-            href="https://github.com/Shecodes2024/weather-app-react"
+            href="https://weather-app-react-ke.netlify.app/"
             target="_blank"
             rel="noreferrer"
           >
