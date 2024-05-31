@@ -1,5 +1,5 @@
 import "./App.css";
-import Weather from "./Weather";
+import Weather from "./Weather.js";
 
 export default function App() {
   return (
@@ -21,6 +21,14 @@ export default function App() {
           >
             {" "}
             open-sourced on GitHub
+          </a>
+          and
+          <a
+            href="https://github.com/Shecodes2024/weather-app-react"
+            target="_blank"
+          >
+            {" "}
+            hosted on Netlify
           </a>
         </footer>
       </div>
