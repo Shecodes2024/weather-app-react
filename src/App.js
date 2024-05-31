@@ -10,7 +10,11 @@ export default function App() {
         <footer>
           {" "}
           This project was coded by{" "}
-          <a href="https://weather-app-react-a.netlify.app/" target="_blank">
+          <a
+            href="https://weather-app-react-a.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
             {" "}
             Loise Musungu
           </a>{" "}
@@ -18,6 +22,7 @@ export default function App() {
           <a
             href="https://github.com/Shecodes2024/weather-app-react"
             target="_blank"
+            rel="noreferrer"
           >
             {" "}
             open-sourced on GitHub
@@ -26,6 +31,7 @@ export default function App() {
           <a
             href="https://github.com/Shecodes2024/weather-app-react"
             target="_blank"
+            rel="noreferrer"
           >
             {" "}
             hosted on Netlify
