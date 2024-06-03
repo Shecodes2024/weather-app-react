@@ -7,10 +7,11 @@ import "./Weather.css";
 export default function Weather(props) {
   const [city, setCity] = useState(props.defaultCity);
   const [weatherData, setWeatherData] = useState({ ready: false });
+
   function handleResponse(response) {
-    console.log(response.data);
     setWeatherData({
       ready: true,
+      coordinates: response.data.coordinates,
       description: response.data.condition.description,
       date: new Date(response.data.time * 1000),
       icon: response.data.condition.icon,
@@ -20,6 +21,8 @@ export default function Weather(props) {
       city: response.data.city,
     });
   }
+
+  // https://api.shecodes.io/weather/v1/forecast?lon=36.817223&lat=-1.286389&key=c4da3a4o67eaeeaf1e33t0a2f3313bb0
 
   function search() {
     const apiKey = "c4da3a4o67eaeeaf1e33t0a2f3313bb0";
@@ -60,7 +63,7 @@ export default function Weather(props) {
           </div>
         </form>
         <WeatherInfo data={weatherData} />
-        <WeatherForecast />
+        <WeatherForecast coordinates={weatherData.coordinates} />
       </div>
     );
   } else {
