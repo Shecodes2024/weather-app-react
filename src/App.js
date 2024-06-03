@@ -26,7 +26,7 @@ export default function App() {
           >
             {" "}
             open-sourced on GitHub
-          </a>
+          </a>{" "}
           and
           <a
             href="https://weather-app-react-ke.netlify.app/"
