@@ -10,7 +10,7 @@ export default function App() {
           {" "}
           This project was coded by{" "}
           <a
-            href="https://weather-app-react-a.netlify.app/"
+            href="https://github.com/loisemusungu"
             target="_blank"
             rel="noreferrer"
           >
