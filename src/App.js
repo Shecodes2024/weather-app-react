@@ -19,7 +19,7 @@ export default function App() {
           </a>{" "}
           and is
           <a
-            href="https://github.com/Shecodes2024/weather-app-react"
+            href="https://github.com/loisemusungu/weather-app-react"
             target="_blank"
             rel="noreferrer"
           >
