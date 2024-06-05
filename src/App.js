@@ -10,7 +10,7 @@ export default function App() {
           {" "}
           This project was coded by{" "}
           <a
-            href="https://github.com/loisemusungu/weather-app-react"
+            href="https://github.com/loisemusungu"
             target="_blank"
             rel="noreferrer"
           >
